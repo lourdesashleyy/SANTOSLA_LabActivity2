@@ -52,6 +52,11 @@
   display: flex;
 }
 
+.headercopy {
+  background-color: #ffcc00;
+  display: flex;
+}
+
 .logo {
   width: 25%;
   height: 30%;
@@ -74,6 +79,10 @@
 
 .ProductBtnListtitle {
   color: #f3a5aa;
+}
+
+.ProductBtnListtitleCopy {
+  color: #ffcc00;
 }
 
 .btnList {
@@ -125,6 +134,19 @@
   height: 20%;
   border-radius: 15px;
   margin: 20px;
+}
+
+.btn2copy {
+  border: 1px solid;
+  border-color: #ffcc00;
+  background-color: #ffcc00;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  width: 50%;
+  height: 20%;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .btn3 {
@@ -574,23 +596,33 @@ h2 {
 }
 
 .About:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Products:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Store:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .SNS:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Store1:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav {
